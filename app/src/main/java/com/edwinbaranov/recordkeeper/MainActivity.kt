@@ -14,8 +14,19 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.runningButton.setOnClickListener { onRunningClicked() }
+        binding.cyclingButton.setOnClickListener { onCyclingClicked() }
+    }
+
+    private fun onRunningClicked() {
         supportFragmentManager.commit {
-            add(R.id.frame_content, RunningFragment())
+            replace(R.id.frame_content, RunningFragment())
+        }
+    }
+
+    private fun onCyclingClicked() {
+        supportFragmentManager.commit {
+            replace(R.id.frame_content, CyclingFragment())
         }
     }
 
