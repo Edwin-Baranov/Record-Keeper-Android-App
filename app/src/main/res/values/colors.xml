@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Define the colors for the Material 3 theme -->
+    <color name="primary">#6200EE</color> <!-- A purple shade -->
+    <color name="primary_variant">#3700B3</color> <!-- A darker purple shade -->
+    <color name="on_primary">@color/white</color> <!-- A white color for text and icons on primary color -->
+    <color name="secondary">#03DAC6</color> <!-- A teal shade -->
+    <color name="secondary_variant">#018786</color> <!-- A darker teal shade -->
+    <color name="on_secondary">@color/black</color> <!-- A black color for text and icons on secondary color -->
+    <color name="error">#B00020</color> <!-- A red shade for error messages -->
+    <color name="on_error">@color/white</color> <!-- A white color for text and icons on error color -->
+    <color name="surface">@color/white</color> <!-- A white color for surfaces like cards and menus -->
+    <color name="on_surface">@color/black</color> <!-- A black color for text and icons on surface color -->
+    <color name="background">@color/white</color> <!-- A white color for the app background -->
+    <color name="on_background">@color/black</color> <!-- A black color for text and icons on background color -->
 </resources>
