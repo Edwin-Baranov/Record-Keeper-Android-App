@@ -93,6 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="?attr/colorOnBackground" />
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_10km"
                 android:layout_width="match_parent"
@@ -135,6 +136,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="?attr/colorOnBackground" />
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_15km"
                 android:layout_width="match_parent"
@@ -177,6 +179,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="?attr/colorOnBackground" />
+
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/container_20km"
                 android:layout_width="match_parent"

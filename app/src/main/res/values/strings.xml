@@ -5,8 +5,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="running_header_image_description">Header image for the running page</string>
+    <string name="cycling_header_image_description">Header image for the cycling page</string>
     <string name="half_marathon_heading">Half Marathon</string>
     <string name="marathon_heading">Marathon</string>
     <string name="ten_kilometer_heading">10km</string>
     <string name="five_kilometer_heading">5km</string>
+    <string name="average_speed">Average Speed</string>
+    <string name="biggest_climb">Biggest Climb</string>
+    <string name="longest_ride">Longest Ride</string>
 </resources>
