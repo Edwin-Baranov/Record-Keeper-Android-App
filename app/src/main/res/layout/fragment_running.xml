@@ -138,7 +138,7 @@
                 android:background="?attr/colorOnBackground" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/container_15km"
+                android:id="@+id/container_half_marathon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="12dp">
@@ -181,7 +181,7 @@
                 android:background="?attr/colorOnBackground" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/container_20km"
+                android:id="@+id/container_marathon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="12dp">
